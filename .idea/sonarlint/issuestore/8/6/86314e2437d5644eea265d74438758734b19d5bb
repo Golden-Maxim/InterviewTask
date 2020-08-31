@@ -1,5 +1,5 @@
 
-A
-java:S29254"$Remove this use of "Thread.sleep()".(¬Ζ„°8΅Ρ£ Δ.
 ;
-java:S5785;"Use assertEquals instead.(νªγόÿÿÿÿ8΄σ΄ªΔ.
+java:S5785D"Use assertEquals instead.(νªγόÿÿÿÿ8΄σ΄ªΔ.
+A
+java:S2925<"$Remove this use of "Thread.sleep()".(¬Ζ„°8΅Ρ£ Δ.

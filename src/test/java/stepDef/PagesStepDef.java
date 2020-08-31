@@ -98,7 +98,6 @@ public class PagesStepDef {
             default:
                 throw new IllegalStateException("Unexpected value: " + pages);
         }
-        Thread.sleep(3000);
         Allure.addAttachment("Screenshot of page ", new ByteArrayInputStream(((TakesScreenshot) DriverManager.getChromeDriver()).getScreenshotAs(OutputType.BYTES)));
 
     }

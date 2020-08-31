@@ -1,6 +1,6 @@
 
-l
-java:S1104"OMake var a static final constant or non-public and provide accessors if needed.(ÙÆ¿°8˜ÑíÃ.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(È•Ç¦üÿÿÿÿ
 @
 java:S3066"#Lower the visibility of this field.(ÙÆ¿°8£É™Ã.
+l
+java:S1104"OMake var a static final constant or non-public and provide accessors if needed.(ÙÆ¿°8˜ÑíÃ.
