@@ -27,9 +27,11 @@ N
 src/main/java/Enums/Pages.java,5\e\5e350e14414a77174a74fd51222c32db7ba4127d
 W
 'src/test/java/stepDef/PagesStepDef.java,6\6\660d8392cb2183659d0a518c347745610a0a5dd2
-M
-src/main/java/Enums/Size.java,a\4\a4b98a539e1751128e5ad25832a43a229423416e
 <
 kuopassa.iml,c\2\c27b36a7b6b953bd637641336f8bc3ba9a6d5684
 R
 "src/main/java/Helpers/Product.java,6\c\6c669ede4b92779905009135b103ba85c5fa7d87
+Z
+*target/surefire-reports/stepDef.Runner.txt,a\4\a49ca59d66f688fe3d7cc2d850732936d375cc83
+_
+/target/surefire-reports/TEST-stepDef.Runner.xml,0\7\07217eee51f903aa74f80241c20ef83e7fee5f7e
