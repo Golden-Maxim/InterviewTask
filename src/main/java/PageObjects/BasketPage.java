@@ -5,7 +5,6 @@ import Helpers.Product;
 import driverFactory.DriverManager;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -77,5 +76,12 @@ public class BasketPage extends Grids {
         wait.until(ExpectedConditions.visibilityOfAllElements(getIsSizeExist()));
     }
 
+    public void clickToLargeSize() {
+        largeSize.click();
+    }
+
+    public void clickToAddToCard() {
+        addToCart.click();
+    }
 
 }

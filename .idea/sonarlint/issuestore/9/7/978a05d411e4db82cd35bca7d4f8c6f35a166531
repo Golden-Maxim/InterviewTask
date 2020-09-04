@@ -1,6 +1,6 @@
 
-Z
-java:S1128"8Remove this unused import 'org.omg.CORBA.PUBLIC_MEMBER'.(œŠÆÊÿÿÿÿÿ8Êæ™¯Ä.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–á‹Ãşÿÿÿÿ8àİàÃ.
 c
 java:S21427"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ò‰¯Ä.
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–á‹Ãşÿÿÿÿ8àİàÃ.
+Z
+java:S1128"8Remove this unused import 'org.omg.CORBA.PUBLIC_MEMBER'.(œŠÆÊÿÿÿÿÿ8Êæ™¯Ä.

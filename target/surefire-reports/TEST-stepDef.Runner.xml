@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="stepDef.Runner" time="160.152" tests="20" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="stepDef.Runner" time="122.313" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\fkca2\AppData\Local\Temp\surefire369678702174582418\surefirebooter6108354966138792807.jar C:\Users\fkca2\AppData\Local\Temp\surefire369678702174582418 2020-08-31T23-33-32_997-jvmRun1 surefire7986791619604515690tmp surefire_05590066596649555851tmp"/>
+    <property name="sun.java.command" value="C:\Users\fkca2\AppData\Local\Temp\surefire900691295619113789\surefirebooter6658631236047786675.jar C:\Users\fkca2\AppData\Local\Temp\surefire900691295619113789 2020-09-04T16-41-49_567-jvmRun1 surefire357241790248704758tmp surefire_08903037129514545871tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\fkca2\IdeaProjects\kuopassa\target\test-classes;C:\Users\fkca2\IdeaProjects\kuopassa\target\classes;C:\Users\fkca2\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\fkca2\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\fkca2\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\fkca2\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\fkca2\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\fkca2\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\fkca2\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\fkca2\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\fkca2\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\fkca2\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\fkca2\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\fkca2\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\fkca2\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\fkca2\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\fkca2\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\fkca2\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\fkca2\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\fkca2\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\fkca2\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\fkca2\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\fkca2\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\fkca2\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\fkca2\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\fkca2\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\fkca2\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\fkca2\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\fkca2\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\fkca2\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\fkca2\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\fkca2\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\fkca2\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\fkca2\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\fkca2\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\fkca2\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\fkca2\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\fkca2\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\fkca2\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\fkca2\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\fkca2\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\fkca2\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\fkca2\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\fkca2\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\fkca2\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\fkca2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\fkca2\.m2\repository\org\assertj\assertj-core\3.8.0\assertj-core-3.8.0.jar;C:\Users\fkca2\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\fkca2\.m2\repository\io\qameta\allure\allure-cucumber4-jvm\2.13.3\allure-cucumber4-jvm-2.13.3.jar;C:\Users\fkca2\.m2\repository\io\qameta\allure\allure-java-commons\2.13.3\allure-java-commons-2.13.3.jar;C:\Users\fkca2\.m2\repository\io\qameta\allure\allure-model\2.13.3\allure-model-2.13.3.jar;C:\Users\fkca2\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\fkca2\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\fkca2\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\fkca2\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\fkca2\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="allure.results.directory" value="target/allure-results"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\fkca2\AppData\Local\Temp\surefire369678702174582418\surefirebooter6108354966138792807.jar;C:\Users\fkca2\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\fkca2\AppData\Local\Temp\surefire900691295619113789\surefirebooter6658631236047786675.jar;C:\Users\fkca2\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,24 +62,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="21.865"/>
-  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="14.662"/>
-  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="15.698"/>
-  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="14.589"/>
-  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="14.076"/>
-  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="13.933"/>
-  <testcase name="As I am a user I switch language" classname="Switch languages" time="3.199"/>
-  <testcase name="As I am a user I switch language" classname="Switch languages" time="2.535"/>
-  <testcase name="As I am a user I want to log in with positive credentials and log out" classname="Negative and positive test for log in form" time="3.703"/>
-  <testcase name="Log in with negative email and password" classname="Negative and positive test for log in form" time="5.067"/>
-  <testcase name="Log in without password" classname="Negative and positive test for log in form" time="1.546"/>
-  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="4.827"/>
-  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="4.689"/>
-  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="4.853"/>
-  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="4.848"/>
-  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="4.883"/>
-  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="4.843"/>
-  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="6.7"/>
-  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="5.063"/>
-  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="6.273"/>
+  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="18.004"/>
+  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="13.581"/>
+  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="13.803"/>
+  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="12.992"/>
+  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="17.884"/>
+  <testcase name="As I am a user I want to move the product in the basket" classname="Basket" time="13.11"/>
+  <testcase name="As I am a user I switch language" classname="Switch languages" time="2.55"/>
+  <testcase name="As I am a user I switch language" classname="Switch languages" time="2.343"/>
+  <testcase name="As I am a user I want to log in with positive credentials and log out" classname="Negative and positive test for log in form" time="3.56"/>
+  <testcase name="Log in with negative email and password" classname="Negative and positive test for log in form" time="6.895"/>
+  <testcase name="Log in without password" classname="Negative and positive test for log in form" time="1.43"/>
+  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="1.624"/>
+  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="1.632"/>
+  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="1.599"/>
+  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="1.587"/>
+  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="1.518"/>
+  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="1.59"/>
+  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="1.547"/>
+  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="1.567"/>
+  <testcase name="As I am a user I want to switch between pages" classname="Switch between pages" time="1.648"/>
 </testsuite>

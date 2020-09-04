@@ -8,7 +8,6 @@ import io.cucumber.java.en.When;
 import io.qameta.allure.Allure;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -19,44 +18,25 @@ public class LanguagesStepDef {
     MainPage mainPage = new MainPage();
 
     @When("^I switch language to (.+)")
-    public void i_switch_language_to(String name) {
+    public void iSwitchLanguageTo(String name) {
         mainPage.clickToButtonChange();
         mainPage.clickToSelect();
-        switch (name) {
-            case "Svenska":
-                DriverManager.getChromeDriver().findElement(By.xpath
-                        ("//select[@name = 'language_code']/option[@value = '" + Languages.SVENSKA.value + "']")).click();
-                mainPage.saveLanguage();
-                break;
-            case "English":
-                DriverManager.getChromeDriver().findElement(By.xpath
-                        ("//select[@name = 'language_code']/option[@value = '" + Languages.ENGLISH.value + "']")).click();
-                mainPage.saveLanguage();
-                break;
-            case "Suomi":
-                DriverManager.getChromeDriver().findElement(By.xpath
-                        ("//select[@name = 'language_code']/option[@value = '" + Languages.SUOMI.value + "']")).click();
-                mainPage.saveLanguage();
-                break;
-
-            default:
-                System.out.println("Language does not exist!");
-        }
+        mainPage.iSwitchLanguagesTo(name);
         Allure.addAttachment("Screenshot of page ", new ByteArrayInputStream(((TakesScreenshot) DriverManager.getChromeDriver()).getScreenshotAs(OutputType.BYTES)));
     }
 
     @Then("^I check that language is (.+)")
-    public void check_That_Languages_is_Switched(String name) {
+    public void checkThatLanguagesIsSwitched(String name) {
         String url = DriverManager.getChromeDriver().getCurrentUrl();
         switch (name) {
             case "Svenska":
-                Assert.assertTrue(url.contains(Languages.SVENSKA.value));
+                Assert.assertTrue(url.contains(Languages.SVENSKA.var));
                 break;
             case "Suomi":
-                Assert.assertTrue(url.contains(Languages.SUOMI.value));
+                Assert.assertTrue(url.contains(Languages.SUOMI.var));
                 break;
             case "English":
-                Assert.assertTrue(url.contains(Languages.ENGLISH.value));
+                Assert.assertTrue(url.contains(Languages.ENGLISH.var));
                 break;
             default:
                 System.out.println("Language does not exist!");

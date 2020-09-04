@@ -2,6 +2,8 @@ package Enums;
 
 import lombok.Getter;
 
+import java.util.Arrays;
+
 @Getter
 public enum Pages {
     CUSTOMER_SERVICE("Customer Service"),
@@ -21,11 +23,7 @@ public enum Pages {
     }
 
     public static Pages getPagesName(String containerName) {
-        for (Pages container : Pages.values()) {
-            if (container.getVar().equalsIgnoreCase(containerName)) {
-                return container;
-            }
-        }
-        throw new IllegalStateException("Wrong parameter passed");
+        return Arrays.stream(Pages.values()).filter(container -> container.getVar().equalsIgnoreCase(containerName)).findAny().orElse(null);
+
     }
 }

@@ -1,14 +1,14 @@
 Feature: Switch languages
 
-  @Smoke
-  Scenario: As I am a user I switch language
+  @123
+  Scenario Outline: As I am a user I switch language
     Given I am on the Main Page
-    When I switch language to Svenska
-    Then I check that language is Svenska
+    When I switch language to <var>
+    Then I check that language is <var>
+    Examples:
+      | var     |
+      | Svenska |
+      | Suomi   |
 
-  @Smoke
-  Scenario: As I am a user I switch language
-    Given I am on the Main Page
-    When I switch language to Suomi
-    Then I check that language is Suomi
+
 

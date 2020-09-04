@@ -29,15 +29,15 @@ public class BasketStepDef {
         if (product.getName().equals("Yellow Duck")) {
             product.getLinkToProduct().click();
             basketPage.waitUntilSizeIsExist();
-            basketPage.getLargeSize().click();
-            basketPage.getAddToCart().click();
+            basketPage.clickToLargeSize();
+            basketPage.clickToAddToCard();
             basketPage.waitForUntilProductGetBasket();
-            mainPage.getBasket().click();
+            mainPage.clickToBasket();
         } else {
             product.getLinkToProduct().click();
-            basketPage.getAddToCart().click();
+            basketPage.clickToAddToCard();
             basketPage.waitForUntilProductGetBasket();
-            mainPage.getBasket().click();
+            mainPage.clickToBasket();
         }
         Allure.addAttachment("Screenshot of page ", new ByteArrayInputStream(((TakesScreenshot) DriverManager.getChromeDriver()).getScreenshotAs(OutputType.BYTES)));
 

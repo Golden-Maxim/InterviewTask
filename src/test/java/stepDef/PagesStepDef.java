@@ -26,39 +26,8 @@ public class PagesStepDef {
 
 
     @When("^I click to (.+)")
-    public void i_click_to_corresponding_page(String nameOfPage) {
-        Pages pages = Pages.getPagesName(nameOfPage);
-        switch (pages) {
-            case ABOUT_US:
-                pagesPageObject.getAbout_Us().click();
-                break;
-            case PRIVACY_POLICY:
-                pagesPageObject.getPrivacy_Policy().click();
-                break;
-            case LOGIN:
-                pagesPageObject.getLogin().click();
-                break;
-            case RUBBER_DUCKS:
-                pagesPageObject.getRubberDucks().click();
-                break;
-            case CREATE_ACCOUNT:
-                pagesPageObject.getCreate_Account().click();
-                break;
-            case CUSTOMER_SERVICE:
-                pagesPageObject.getCustomer_Service().click();
-                break;
-            case TERMS_CONDITIONS:
-                pagesPageObject.getTermsConditions().click();
-                break;
-            case REGIONAL_SETTINGS:
-                pagesPageObject.getRegional_Settings().click();
-                break;
-            case DELIVERY_INFORMATION:
-                pagesPageObject.getDelivery_Information().click();
-                break;
-            default:
-                throw new IllegalStateException("Unexpected value: " + pages);
-        }
+    public void iClickToCorrespondingPage(String nameOfPage) {
+        pagesPageObject.clickToTheCorrespondingPage(nameOfPage);
         Allure.addAttachment("Screenshot of page ", new ByteArrayInputStream(((TakesScreenshot) DriverManager.getChromeDriver()).getScreenshotAs(OutputType.BYTES)));
     }
 

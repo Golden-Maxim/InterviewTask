@@ -1,7 +1,7 @@
 PageObjects\BasketPage.class
-Enums\Size.class
 Enums\Languages.class
 PageObjects\MainPage.class
+PageObjects\PagesPageObject$1.class
 Helpers\Grids.class
 PageObjects\PagesPageObject.class
 Enums\Pages.class

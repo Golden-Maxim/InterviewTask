@@ -15,6 +15,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
+
                     <encoding>UTF-8</encoding>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -25,6 +26,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.1</version>
                 <configuration>
+                  <!--  <parallel>methods</parallel>
+                    <useUnlimitedThreads>true</useUnlimitedThreads>-->
                     <includes>
                         <include>**Runner.class</include>
                     </includes>
@@ -112,11 +115,6 @@
             <scope>test</scope>
         </dependency>
 
-      <!--  <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-core</artifactId>
-            <version>6.5.1</version>
-        </dependency>-->
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -130,13 +128,7 @@
             <version>4.13</version>
             <scope>test</scope>
         </dependency>
-     <!--   <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>compile</scope>
 
-        </dependency>-->
 
         <dependency>
             <groupId>org.assertj</groupId>
@@ -144,12 +136,6 @@
             <version>3.8.0</version>
 
         </dependency>
-       <!-- <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
-            <version>3.16.1</version>
-            <scope>compile</scope>
-        </dependency>-->
 
         <dependency>
             <groupId>org.projectlombok</groupId>

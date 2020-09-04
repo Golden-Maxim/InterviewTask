@@ -11,6 +11,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import static Enums.Languages.*;
+
 @Getter
 @Slf4j
 public class MainPage extends Grids {
@@ -73,5 +75,37 @@ public class MainPage extends Grids {
     public void waitButtomLogOut() {
         WebDriverWait wait = new WebDriverWait(DriverManager.getChromeDriver(), 20);
         wait.until(ExpectedConditions.visibilityOfAllElements(getLogOut()));
+    }
+
+    public void clickToLogOut() {
+        logOut.click();
+    }
+
+    public void clickToBasket() {
+        basket.click();
+    }
+
+    public void iSwitchLanguagesTo(String language) {
+        String xPaht = "//select[@name = 'language_code']/option[@value = '";
+        switch (language) {
+            case "Svenska":
+                DriverManager.getChromeDriver().findElement(By.xpath
+                        (xPaht + SVENSKA.var + "']")).click();
+                saveLanguage();
+                break;
+            case "English":
+                DriverManager.getChromeDriver().findElement(By.xpath
+                        (xPaht + ENGLISH.var + "']")).click();
+                saveLanguage();
+                break;
+            case "Suomi":
+                DriverManager.getChromeDriver().findElement(By.xpath
+                        (xPaht + SUOMI.var + "']")).click();
+                saveLanguage();
+                break;
+
+            default:
+                System.out.println("Language does not exist!");
+        }
     }
 }
