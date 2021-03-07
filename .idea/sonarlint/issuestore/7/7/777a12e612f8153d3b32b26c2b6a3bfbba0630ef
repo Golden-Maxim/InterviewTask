@@ -1,8 +1,8 @@
 
-}	java:S116"\Rename this field "regional_Settings" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¥şÆüÿÿÿÿ8Ûº¼Ã.
-z	java:S116"YRename this field "create_Account" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÊüÿÿÿÿ8¨½½Ã.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–á‹Ãşÿÿÿÿ
-€	java:S116"_Rename this field "delivery_Information" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÇè‘úÿÿÿÿ8–ÆÃ.
-z	java:S116"YRename this field "privacy_Policy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å”œêşÿÿÿÿ8ÍãÆÃ.
-t	java:S116"SRename this field "about_Us" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«áı²ûÿÿÿÿ8êâÂÃ.
-w	java:S116"[Rename this field "customer_Service" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÉ¢°8ëş¹Ã.
+}	java:S116"\Rename this field "regional_Settings" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¥şÆüÿÿÿÿ8Ûº¼Ã.
+z	java:S116"YRename this field "create_Account" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÊüÿÿÿÿ8¨½½Ã.
+€	java:S116"_Rename this field "delivery_Information" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÇè‘úÿÿÿÿ8–ÆÃ.
+w	java:S116"[Rename this field "customer_Service" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÉ¢°8ëş¹Ã.
+z	java:S116"YRename this field "privacy_Policy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å”œêşÿÿÿÿ8ÍãÆÃ.
+t	java:S116"SRename this field "about_Us" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«áı²ûÿÿÿÿ8êâÂÃ.

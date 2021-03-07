@@ -35,3 +35,17 @@ Z
 *target/surefire-reports/stepDef.Runner.txt,a\4\a49ca59d66f688fe3d7cc2d850732936d375cc83
 _
 /target/surefire-reports/TEST-stepDef.Runner.xml,0\7\07217eee51f903aa74f80241c20ef83e7fee5f7e
+e
+5src/test/resources/parallel/scenario-outlines.feature,1\9\195179bd0b4ae7b617604dffe1da29e281ae0c8c
+]
+-src/test/resources/parallel/scenarios.feature,f\8\f8767ac9ac3b1fc522d35abce4754ee74d4c98f0
+‚
+Rtarget/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,8\a\8ae396f369da14bb5c0973286facff8fb2c70d56
+€
+Ptarget/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,3\d\3da01db98b88a8057c03354880f06dba49d3e795
+[
++target/test-classes/features/Basket.feature,5\3\5381903211333be620a54cbe4865a3b674fc882e
+^
+.target/test-classes/features/Languages.feature,e\b\eb526f1310c9b71f94ffa2c119ff0a12af469a84
+Z
+*target/test-classes/features/Pages.feature,f\2\f20d5d012cc182de83c1c66710b604c6fb176a4d
